@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Persistence",
-    "\\Persistence\\Models"
+    ""
   ],
-  "SelectedNode": "\\Persistence\\Models\\Marker.cs",
+  "SelectedNode": "\\Game.Server.sln",
   "PreviewInSolutionExplorer": false
 }

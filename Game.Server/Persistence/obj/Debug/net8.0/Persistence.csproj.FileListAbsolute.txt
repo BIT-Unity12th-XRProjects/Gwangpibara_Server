@@ -1,0 +1,6 @@
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
