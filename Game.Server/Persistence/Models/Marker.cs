@@ -33,16 +33,25 @@ namespace Persistence.Models
         }
     }
 
-    class Marker
+    public class Marker
     {
-        public int ID;
-        public string name;
-        public int dropItemID;
-        public int acquireStep;
-        public int removeStep;
+        public int ID { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int DropItemID { get; set; }
+        public int AcquireStep { get; set; }
+        public int RemoveStep { get; set; }
+        public Vector3Value Position { get; set; } = new Vector3Value();
+        public QuaternionValue Rotation { get; set; } = new QuaternionValue();
+        public MarkerSpawnType MarkerSpawnType { get; set; } = MarkerSpawnType.Base;
+        public MarkerType MarkerType { get; set; } = MarkerType.DropItem;
+        /*public int ID { get; set; }
+        public string name { get; set; }
+        public int dropItemID { get; set; }
+        public int acquireStep { get; set; }
+        public int removeStep { get; set; }
         public Vector3Value position { get; set; }
-        public QuaternionValue rotation;
+        public QuaternionValue rotation { get; set; }
         public MarkerSpawnType markerSpawnType = MarkerSpawnType.Base;
-        public MarkerType markerType = MarkerType.DropItem;
+        public MarkerType markerType = MarkerType.DropItem;*/
     }
 }

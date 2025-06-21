@@ -25,11 +25,11 @@ namespace Persistence.Models.Configurations
             );
 
 
-            builder.Property(p => p.position)
+            builder.Property(p => p.Position)
                 .HasConversion(vector3Converter)
                 .HasColumnType("nvarchar(100)");
 
-            builder.Property(p => p.rotation)
+            builder.Property(p => p.Rotation)
                 .HasConversion(quaternionConverter)
                 .HasColumnType("nvarchar(100)");
         }
