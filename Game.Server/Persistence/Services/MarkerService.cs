@@ -13,44 +13,65 @@ namespace Persistence.Services
             _context = context;
         }
 
-        public IEnumerable<Marker> GetAll()
+        /// <summary>
+        /// 모든 마커 단순 조회용, 추적은 안 함
+        /// </summary>
+        public async Task<List<Marker>> GetAllAsync()
         {
-            return _context.Markers
-                .AsNoTracking()
-                .ToList();
+            return await _context.Markers
+                                 .AsNoTracking()
+                                 .ToListAsync();
         }
 
-        public Marker? GetById(int id)
+        /// <summary>
+        /// ID로 마커 단순 조회, 추적은 안 함
+        /// </summary>
+        public async Task<Marker?> GetByIdAsync(int id)
         {
-            return _context.Markers
-                .Include(p => p.Name)
-                .Include(p => p.DropItemID)
-                .Include(p => p.AcquireStep)
-                .Include(p => p.RemoveStep)
-                .Include(p => p.Position)
-                .Include(p => p.Rotation)
-                .Include(p => p.MarkerSpawnType)
-                .Include(p => p.MarkerType)
-                .AsNoTracking()
-                .SingleOrDefault(p => p.ID == id);
+            return await _context.Markers
+                                 .AsNoTracking()
+                                 .SingleOrDefaultAsync(p => p.ID == id);
         }
 
-        public Marker Create(Marker newMarker)
+        /// <summary>
+        /// 마커 생성 후 DB에 저장
+        /// </summary>
+        public async Task<Marker> CreateAsync(Marker newMarker)
         {
-            _context.Markers.Add(newMarker);
-            _context.SaveChanges();
-
+            await _context.Markers.AddAsync(newMarker);
+            await _context.SaveChangesAsync();
             return newMarker;
         }
 
-        public void DeleteById(int id)
+        /// <summary>
+        /// ID로 마커 삭제
+        /// </summary>
+        public async Task DeleteByIdAsync(int id)
         {
-            Marker? markerToDelete = _context.Markers.Find(id);
-            if (markerToDelete is not null)
+            Marker? markerToDelete = await _context.Markers.FindAsync(id);
+            if (markerToDelete != null)
             {
                 _context.Markers.Remove(markerToDelete);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
+        }
+
+        /// <summary>
+        /// 마커 위치 업데이트
+        /// </summary>
+        /// <param name="markerId">업데이트 할 마커 id</param>
+        /// <param name="newPosition">변경된 위치</param>
+        /// <returns></returns>
+        /// <exception cref="KeyNotFoundException"></exception>
+        public async Task UpdatePositionAsync(int markerId, Vector3Value newPosition)
+        {
+            Marker? marker = await _context.Markers.FindAsync(markerId);
+            if (marker == null)
+                throw new KeyNotFoundException("찾을 수 없습니다.");
+
+            marker.Position = newPosition;
+
+            await _context.SaveChangesAsync();
         }
     }
 }

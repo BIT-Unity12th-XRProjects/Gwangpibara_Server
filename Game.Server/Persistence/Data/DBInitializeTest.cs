@@ -1,4 +1,5 @@
-﻿using Persistence.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Persistence.Models;
 
 namespace Persistence.Data
 {
@@ -15,8 +16,13 @@ namespace Persistence.Data
                 RemoveStep = 3
             };
 
-            context.Markers.AddRange(sampleObj);
-            context.SaveChanges();
+            Marker? m = context.Markers
+                .AsNoTracking()
+                .SingleOrDefault(p => p.ID == 1);
+            if(m!=null)
+                Console.WriteLine("부기부기" + m.Name);
+            //context.Markers.AddRange(sampleObj);
+            //context.SaveChanges();
         }
     }
 }
