@@ -44,14 +44,5 @@ namespace Persistence.Models
         public QuaternionValue Rotation { get; set; } = new QuaternionValue();
         public MarkerSpawnType MarkerSpawnType { get; set; } = MarkerSpawnType.Base;
         public MarkerType MarkerType { get; set; } = MarkerType.DropItem;
-        /*public int ID { get; set; }
-        public string name { get; set; }
-        public int dropItemID { get; set; }
-        public int acquireStep { get; set; }
-        public int removeStep { get; set; }
-        public Vector3Value position { get; set; }
-        public QuaternionValue rotation { get; set; }
-        public MarkerSpawnType markerSpawnType = MarkerSpawnType.Base;
-        public MarkerType markerType = MarkerType.DropItem;*/
     }
 }

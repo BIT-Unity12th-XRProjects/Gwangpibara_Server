@@ -3,7 +3,7 @@ using Persistence.Models;
 
 namespace Persistence.Data
 {
-    class GameDBContext : DbContext
+    public class GameDBContext : DbContext
     {
         public GameDBContext(DbContextOptions<GameDBContext> options) : base(options){}
 
