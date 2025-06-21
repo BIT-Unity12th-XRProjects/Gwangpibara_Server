@@ -26,7 +26,7 @@ namespace Persistence.Data
 
             var testing = new Marker
             {
-                Name = "icecream",
+                Name = "sleepy",
                 DropItemID = 2,
                 AcquireStep = 3,
                 RemoveStep = 11

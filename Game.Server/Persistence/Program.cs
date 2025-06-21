@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MySqlConnector;
 using Persistence.Data;
 
 namespace Persistence
@@ -10,24 +9,25 @@ namespace Persistence
     {
         static void Main(string[] args)
         {
-            var builder = Host.CreateDefaultBuilder(args);
+            var builder = WebApplication.CreateBuilder(args);
 
-            builder.ConfigureServices((context, services) =>
-                {
-                   var serverVersion = ServerVersion.AutoDetect(ConnectionSettings.CONNECTION);
+            builder.Services.AddCors(options =>
+                options.AddPolicy("AllowAll",
+                    policy => policy
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                ));
 
-                    services.AddDbContext<GameDBContext>(opt =>
-                        opt.UseMySql(ConnectionSettings.CONNECTION, serverVersion));
-
-                    Console.WriteLine(serverVersion);
-
-                   
-                });
+            builder.Services.AddDbContext<GameDBContext>(opt =>
+                opt.UseMySql(ConnectionSettings.CONNECTION, ServerVersion.AutoDetect(ConnectionSettings.CONNECTION)));
 
             var app = builder.Build();
 
             app.CreateDbIfNotExists();
-            
+
+            app.UseCors("AllowAll");
+
             app.Run();
         }
     }
