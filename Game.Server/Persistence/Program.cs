@@ -20,6 +20,8 @@ namespace Persistence
                         opt.UseMySql(ConnectionSettings.CONNECTION, serverVersion));
 
                     Console.WriteLine(serverVersion);
+
+                   
                 });
 
             var app = builder.Build();
