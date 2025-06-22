@@ -36,7 +36,7 @@ namespace Persistence.Models
     public class Marker
     {
         public int ID { get; set; }
-        public string Name { get; set; } = string.Empty;
+        public int PrefabID { get; set; } 
         public int DropItemID { get; set; }
         public int AcquireStep { get; set; }
         public int RemoveStep { get; set; }

@@ -24,15 +24,15 @@ namespace Persistence.Data
             //context.Markers.AddRange(sampleObj);
             //context.SaveChanges();
 
-            var testing = new Marker
-            {
-                Name = "sleepy",
-                DropItemID = 2,
-                AcquireStep = 3,
-                RemoveStep = 11
-            };
-            context.Markers.Add(testing);
-            context.SaveChanges();
+            //var testing = new Marker
+            //{
+            //    PrefabID = 1,
+            //    DropItemID = 2,
+            //    AcquireStep = 3,
+            //    RemoveStep = 11
+            //};
+            //context.Markers.Add(testing);
+            //context.SaveChanges();
         }
     }
 }

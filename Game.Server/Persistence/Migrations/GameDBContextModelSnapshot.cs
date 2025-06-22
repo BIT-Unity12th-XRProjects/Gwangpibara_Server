@@ -41,13 +41,12 @@ namespace Persistence.Migrations
                     b.Property<int>("MarkerType")
                         .HasColumnType("int");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<string>("Position")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("PrefabID")
+                        .HasColumnType("int");
 
                     b.Property<int>("RemoveStep")
                         .HasColumnType("int");

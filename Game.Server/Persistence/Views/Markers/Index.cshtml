@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Persistence.Models.Marker>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PrefabID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DropItemID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AcquireStep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RemoveStep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rotation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MarkerSpawnType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MarkerType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrefabID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DropItemID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AcquireStep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RemoveStep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rotation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MarkerSpawnType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MarkerType)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

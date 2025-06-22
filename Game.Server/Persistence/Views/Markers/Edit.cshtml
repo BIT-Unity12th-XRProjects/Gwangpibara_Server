@@ -1,0 +1,69 @@
+﻿@model Persistence.Models.Marker
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Marker</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="PrefabID" class="control-label"></label>
+                <input asp-for="PrefabID" class="form-control" />
+                <span asp-validation-for="PrefabID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DropItemID" class="control-label"></label>
+                <input asp-for="DropItemID" class="form-control" />
+                <span asp-validation-for="DropItemID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AcquireStep" class="control-label"></label>
+                <input asp-for="AcquireStep" class="form-control" />
+                <span asp-validation-for="AcquireStep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RemoveStep" class="control-label"></label>
+                <input asp-for="RemoveStep" class="form-control" />
+                <span asp-validation-for="RemoveStep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Position" class="control-label"></label>
+                <input asp-for="Position" class="form-control" />
+                <span asp-validation-for="Position" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rotation" class="control-label"></label>
+                <input asp-for="Rotation" class="form-control" />
+                <span asp-validation-for="Rotation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MarkerSpawnType" class="control-label"></label>
+                <select asp-for="MarkerSpawnType" class="form-control"></select>
+                <span asp-validation-for="MarkerSpawnType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MarkerType" class="control-label"></label>
+                <select asp-for="MarkerType" class="form-control"></select>
+                <span asp-validation-for="MarkerType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

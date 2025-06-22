@@ -79,7 +79,6 @@ C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\w
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
@@ -87,12 +86,8 @@ C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\u
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\refint\Persistence.dll
@@ -191,3 +186,10 @@ C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticweba
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Persistence.props
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.RazorAssemblyInfo.cache
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.RazorAssemblyInfo.cs

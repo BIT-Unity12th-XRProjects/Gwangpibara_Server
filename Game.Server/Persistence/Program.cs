@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Persistence.Data;
+using Persistence.Services;
 
 namespace Persistence
 {
@@ -10,6 +9,9 @@ namespace Persistence
         static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddScoped<IMarkerService, MarkerService>();
+
+            builder.Services.AddControllers();
 
             builder.Services.AddCors(options =>
                 options.AddPolicy("AllowAll",
@@ -25,8 +27,11 @@ namespace Persistence
             var app = builder.Build();
 
             app.CreateDbIfNotExists();
+            app.UseAuthorization();
 
+            app.UseRouting();
             app.UseCors("AllowAll");
+            app.MapControllers();
 
             app.Run();
         }

@@ -4,7 +4,7 @@ using Persistence.Models;
 
 namespace Persistence.Services
 {
-    public class MarkerService
+    public class MarkerService : IMarkerService
     {
         private readonly GameDBContext _context;
 
