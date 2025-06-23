@@ -38,9 +38,10 @@ namespace Persistence.Services
         /// </summary>
         public async Task<Marker> CreateAsync(Marker newMarker)
         {
-            await _context.Markers.AddAsync(newMarker);
+            newMarker.ID = 0;
+            var m = await _context.Markers.AddAsync(newMarker);
             await _context.SaveChangesAsync();
-            return newMarker;
+            return m.Entity;
         }
 
         /// <summary>
@@ -71,6 +72,32 @@ namespace Persistence.Services
 
             marker.Position = newPosition;
 
+            await _context.SaveChangesAsync();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="markers"></param>
+        /// <returns></returns>
+        public async Task UpdateBulkAsync(List<Marker> markers)
+        {
+            foreach (Marker m in markers)
+            {
+                Marker? existing = await _context.Markers.FindAsync(m.ID);
+                if (existing != null)
+                {
+                    existing.PrefabID = m.PrefabID;
+                    existing.DropItemID = m.DropItemID;
+                    existing.AcquireStep = m.AcquireStep;
+                    existing.RemoveStep = m.RemoveStep;
+                    existing.Position = m.Position;
+                    existing.Rotation = m.Rotation;
+                    existing.Scale = m.Scale;
+                    existing.MarkerSpawnType = m.MarkerSpawnType;
+                    existing.MarkerType = m.MarkerType;
+                }
+            }
             await _context.SaveChangesAsync();
         }
     }

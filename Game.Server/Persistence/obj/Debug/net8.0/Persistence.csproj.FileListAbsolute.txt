@@ -185,7 +185,6 @@ C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticweba
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Persistence.props
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Persistence.props
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
@@ -193,3 +192,5 @@ C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\w
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.RazorAssemblyInfo.cache
 C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\Persistence.RazorAssemblyInfo.cs
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Github\Gwangpibara_Server\Game.Server\Persistence\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

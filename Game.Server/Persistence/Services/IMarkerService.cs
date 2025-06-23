@@ -9,5 +9,6 @@ namespace Persistence.Services
         Task<Marker> CreateAsync(Marker newMarker);
         Task DeleteByIdAsync(int id);
         Task UpdatePositionAsync(int markerId, Vector3Value newPosition);
+        Task UpdateBulkAsync(List<Marker> markers);
     }
 }

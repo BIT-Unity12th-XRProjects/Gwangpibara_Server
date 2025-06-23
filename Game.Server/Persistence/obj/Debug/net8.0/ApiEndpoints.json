@@ -107,5 +107,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Persistence.MyApi.MarkersController",
+    "Method": "UpdateBulkAsync",
+    "RelativePath": "api/Markers/bulk",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "markers",
+        "Type": "System.Collections.Generic.List\u00601[[Persistence.Models.Marker, Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -7,6 +7,8 @@ namespace Persistence.Data
     {
         public static void Initialize(GameDBContext context)
         {
+            //context.Markers.RemoveRange(context.Markers);
+            //context.SaveChanges();
             //var sampleObj = new Marker
             //{
             //    ID = 1,
@@ -24,12 +26,18 @@ namespace Persistence.Data
             //context.Markers.AddRange(sampleObj);
             //context.SaveChanges();
 
+            //var v = new Vector3Value();
+            //v.X = 10;
+            //v.Y = 30;
+            //v.Z = 2;
             //var testing = new Marker
             //{
             //    PrefabID = 1,
             //    DropItemID = 2,
             //    AcquireStep = 3,
-            //    RemoveStep = 11
+            //    RemoveStep = 11,
+            //    Position = v
+
             //};
             //context.Markers.Add(testing);
             //context.SaveChanges();

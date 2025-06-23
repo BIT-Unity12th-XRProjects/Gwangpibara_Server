@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Persistence.Data;
 using Persistence.Services;
+using Newtonsoft.Json;
 
 namespace Persistence
 {
@@ -10,6 +11,7 @@ namespace Persistence
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddScoped<IMarkerService, MarkerService>();
+
 
             builder.Services.AddControllers();
 

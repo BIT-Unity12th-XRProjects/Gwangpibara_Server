@@ -14,6 +14,7 @@ namespace Persistence.MyApi
         {
             _markerService = markerService;
         }
+
         /// <summary>
         /// 모든 마커 조회
         /// GET /api/markers
@@ -47,7 +48,7 @@ namespace Persistence.MyApi
         public async Task<ActionResult<Marker>> CreateAsync([FromBody] Marker newMarker)
         {
             var created = await _markerService.CreateAsync(newMarker);
-            return CreatedAtAction(nameof(GetByIdAsync), new { id = created.ID }, created);
+            return CreatedAtAction(nameof(GetByIdAsync), new { id = newMarker.ID }, newMarker);
         }
 
         /// <summary>
@@ -77,6 +78,13 @@ namespace Persistence.MyApi
             {
                 return NotFound();
             }
+        }
+
+        [HttpPut("bulk")]
+        public async Task<IActionResult> UpdateBulkAsync([FromBody] List<Marker> markers)
+        {
+            await _markerService.UpdateBulkAsync(markers);
+            return NoContent();
         }
     }
 }
