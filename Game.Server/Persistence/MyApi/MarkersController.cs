@@ -31,7 +31,7 @@ namespace Persistence.MyApi
         /// GET /api/markers/{id}
         /// </summary>
         [HttpGet("{id}")]
-        public async Task<ActionResult<Marker>> GetByIdAsync(int id)
+        public async Task<IActionResult> GetByIdAsync(int id)
         {
             var marker = await _markerService.GetByIdAsync(id);
             if (marker == null)
@@ -48,7 +48,7 @@ namespace Persistence.MyApi
         public async Task<ActionResult<Marker>> CreateAsync([FromBody] Marker newMarker)
         {
             var created = await _markerService.CreateAsync(newMarker);
-            return CreatedAtAction(nameof(GetByIdAsync), new { id = newMarker.ID }, newMarker);
+            return CreatedAtAction(nameof(GetByIdAsync), "markers",new { id = newMarker.ID }, newMarker);
         }
 
         /// <summary>

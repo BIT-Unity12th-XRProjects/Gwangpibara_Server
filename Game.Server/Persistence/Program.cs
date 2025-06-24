@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Persistence.Data;
 using Persistence.Services;
-using Newtonsoft.Json;
 
 namespace Persistence
 {
@@ -13,7 +12,7 @@ namespace Persistence
             builder.Services.AddScoped<IMarkerService, MarkerService>();
 
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddNewtonsoftJson();
 
             builder.Services.AddCors(options =>
                 options.AddPolicy("AllowAll",

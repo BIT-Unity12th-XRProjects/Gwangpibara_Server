@@ -97,6 +97,10 @@ namespace Persistence.Services
                     existing.MarkerSpawnType = m.MarkerSpawnType;
                     existing.MarkerType = m.MarkerType;
                 }
+                else
+                {
+                    var created = await CreateAsync(m);
+                }
             }
             await _context.SaveChangesAsync();
         }
