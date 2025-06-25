@@ -21,8 +21,9 @@ Ex) `“http://192.168.0.28:5000”`
 
 - 홈에서 AWS RDS 와 Connection 만들기
     
-    > 아이디 : root
-    비번 : gwangpibara!!
+    > 아이디 : root <br/>
+    > 비번 : gwangpibara!!<br/>
+    > AWS RDS 의 EndPoint 입력
     > 
 
 ## 주의 사항
