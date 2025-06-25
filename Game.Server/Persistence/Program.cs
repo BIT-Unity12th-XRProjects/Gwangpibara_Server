@@ -11,7 +11,6 @@ namespace Persistence
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddScoped<IMarkerService, MarkerService>();
 
-
             builder.Services.AddControllers().AddNewtonsoftJson();
 
             builder.Services.AddCors(options =>

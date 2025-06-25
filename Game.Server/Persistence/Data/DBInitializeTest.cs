@@ -8,8 +8,8 @@ namespace Persistence.Data
         //테스트용 스크립트
         public static void Initialize(GameDBContext context)
         {
-            /*context.Markers.RemoveRange(context.Markers);
-            context.SaveChanges();*/
+            context.Markers.RemoveRange(context.Markers);
+            context.SaveChanges();
             //var sampleObj = new Marker
             //{
             //    ID = 1,

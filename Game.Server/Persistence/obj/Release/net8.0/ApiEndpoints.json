@@ -1,0 +1,117 @@
+[
+  {
+    "ContainingType": "Persistence.MyApi.MarkersController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Markers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Persistence.Models.Marker, Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Persistence.MyApi.MarkersController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Markers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newMarker",
+        "Type": "Persistence.Models.Marker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Persistence.Models.Marker",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Persistence.MyApi.MarkersController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Markers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Persistence.MyApi.MarkersController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Markers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Persistence.MyApi.MarkersController",
+    "Method": "UpdatePositionAsync",
+    "RelativePath": "api/Markers/{id}/position",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPosition",
+        "Type": "Persistence.Models.Vector3Value",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Persistence.MyApi.MarkersController",
+    "Method": "UpdateBulkAsync",
+    "RelativePath": "api/Markers/bulk",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "markers",
+        "Type": "System.Collections.Generic.List\u00601[[Persistence.Models.Marker, Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

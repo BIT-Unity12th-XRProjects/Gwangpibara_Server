@@ -3,40 +3,47 @@
   "WorkspaceRootPath": "C:\\Github\\Gwangpibara_Server\\Game.Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\data\\dbinitializetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\dbinitializetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\data\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\services\\markerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\services\\markerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\services\\imarkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\services\\imarkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\myapi\\markerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\myapi\\markerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\models\\marker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\marker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hyunj\\AppData\\Local\\Temp\\.vsdbgsrc\\c375849dd4ff9528bb168d3d0373e1a54847748f2bf69f87ec2883f3069e9dbf\\ServerSession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\services\\markerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\services\\markerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\models\\configurations\\markerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\configurations\\markerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\myapi\\markerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\myapi\\markerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\connectionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,16 +54,20 @@
       "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\designtimefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\persistence.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistence.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\data\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|c:\\github\\gwangpibara_server\\game.server\\persistence\\services\\imarkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F751050-3958-4A71-BB32-8D57F222C3C4}|Persistence\\Persistence.csproj|solutionrelative:persistence\\services\\imarkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,64 +76,25 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 325,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 350,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MarkersController.cs",
-              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\MyApi\\MarkersController.cs",
-              "RelativeDocumentMoniker": "Persistence\\MyApi\\MarkersController.cs",
-              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\MyApi\\MarkersController.cs",
-              "RelativeToolTip": "Persistence\\MyApi\\MarkersController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:24:56.51Z",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Persistence\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Persistence\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T10:40:17.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameDBContext.cs",
-              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\GameDBContext.cs",
-              "RelativeDocumentMoniker": "Persistence\\Data\\GameDBContext.cs",
-              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\GameDBContext.cs",
-              "RelativeToolTip": "Persistence\\Data\\GameDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:56:16.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\Extensions.cs",
-              "RelativeDocumentMoniker": "Persistence\\Data\\Extensions.cs",
-              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\Extensions.cs",
-              "RelativeToolTip": "Persistence\\Data\\Extensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAD4vxAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:56:08.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Marker.cs",
-              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Models\\Marker.cs",
-              "RelativeDocumentMoniker": "Persistence\\Models\\Marker.cs",
-              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Models\\Marker.cs",
-              "RelativeToolTip": "Persistence\\Models\\Marker.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAmwCsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:52:00.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "MarkerConfig.cs",
               "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Models\\Configurations\\MarkerConfig.cs",
               "RelativeDocumentMoniker": "Persistence\\Models\\Configurations\\MarkerConfig.cs",
@@ -135,31 +107,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Persistence\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Persistence\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-22T10:40:17.621Z"
+              "DocumentIndex": 2,
+              "Title": "Marker.cs",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Models\\Marker.cs",
+              "RelativeDocumentMoniker": "Persistence\\Models\\Marker.cs",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Models\\Marker.cs",
+              "RelativeToolTip": "Persistence\\Models\\Marker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:52:00.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Persistence.csproj",
               "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Persistence.csproj",
               "RelativeDocumentMoniker": "Persistence\\Persistence.csproj",
               "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Persistence.csproj",
               "RelativeToolTip": "Persistence\\Persistence.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-22T09:31:25.853Z"
+              "WhenOpened": "2025-06-22T09:31:25.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Dockerfile",
+              "RelativeDocumentMoniker": "Persistence\\Dockerfile",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Dockerfile",
+              "RelativeToolTip": "Persistence\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-24T07:48:54.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MarkersController.cs",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\MyApi\\MarkersController.cs",
+              "RelativeDocumentMoniker": "Persistence\\MyApi\\MarkersController.cs",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\MyApi\\MarkersController.cs",
+              "RelativeToolTip": "Persistence\\MyApi\\MarkersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwv1UAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T10:24:56.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-25T00:14:57.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Persistence",
               "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Persistence.csproj",
               "RelativeDocumentMoniker": "Persistence\\Persistence.csproj",
@@ -167,12 +180,36 @@
               "RelativeToolTip": "Persistence\\Persistence.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-22T12:35:21.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\Extensions.cs",
+              "RelativeDocumentMoniker": "Persistence\\Data\\Extensions.cs",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\Extensions.cs",
+              "RelativeToolTip": "Persistence\\Data\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD4vwcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:56:08.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameDBContext.cs",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\GameDBContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\Data\\GameDBContext.cs",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\GameDBContext.cs",
+              "RelativeToolTip": "Persistence\\Data\\GameDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:56:16.715Z"
             }
           ]
         },
         {
-          "DockedWidth": 393,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 368,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -182,53 +219,77 @@
               "RelativeDocumentMoniker": "Persistence\\Services\\MarkerService.cs",
               "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Services\\MarkerService.cs",
               "RelativeToolTip": "Persistence\\Services\\MarkerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T10:14:17.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Program.cs",
               "RelativeDocumentMoniker": "Persistence\\Program.cs",
               "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Program.cs",
               "RelativeToolTip": "Persistence\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T10:37:02.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ConnectionSettings.cs",
-              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\ConnectionSettings.cs",
-              "RelativeDocumentMoniker": "Persistence\\ConnectionSettings.cs",
-              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\ConnectionSettings.cs",
-              "RelativeToolTip": "Persistence\\ConnectionSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T14:51:48.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DBInitializeTest.cs",
               "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\DBInitializeTest.cs",
               "RelativeDocumentMoniker": "Persistence\\Data\\DBInitializeTest.cs",
               "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\DBInitializeTest.cs",
               "RelativeToolTip": "Persistence\\Data\\DBInitializeTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T10:39:16.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "ServerSession.cs",
+              "DocumentMoniker": "C:\\Users\\hyunj\\AppData\\Local\\Temp\\.vsdbgsrc\\c375849dd4ff9528bb168d3d0373e1a54847748f2bf69f87ec2883f3069e9dbf\\ServerSession.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\hyunj\\AppData\\Local\\Temp\\.vsdbgsrc\\c375849dd4ff9528bb168d3d0373e1a54847748f2bf69f87ec2883f3069e9dbf\\ServerSession.cs",
+              "ToolTip": "C:\\Users\\hyunj\\AppData\\Local\\Temp\\.vsdbgsrc\\c375849dd4ff9528bb168d3d0373e1a54847748f2bf69f87ec2883f3069e9dbf\\ServerSession.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "RelativeToolTip": "..\\..\\..\\Users\\hyunj\\AppData\\Local\\Temp\\.vsdbgsrc\\c375849dd4ff9528bb168d3d0373e1a54847748f2bf69f87ec2883f3069e9dbf\\ServerSession.cs [\uC77D\uAE30 \uC804\uC6A9]",
+              "ViewState": "AgIAAI8CAAAAAAAAAAAQwJwCAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:41:18.714Z",
+              "EditorCaption": " [\uC77D\uAE30 \uC804\uC6A9]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DesignTimeFactory.cs",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\DesignTimeFactory.cs",
+              "RelativeDocumentMoniker": "Persistence\\Data\\DesignTimeFactory.cs",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\DesignTimeFactory.cs",
+              "RelativeToolTip": "Persistence\\Data\\DesignTimeFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:13:22.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConnectionSettings.cs",
+              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\ConnectionSettings.cs",
+              "RelativeDocumentMoniker": "Persistence\\ConnectionSettings.cs",
+              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\ConnectionSettings.cs",
+              "RelativeToolTip": "Persistence\\ConnectionSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T14:51:48.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IMarkerService.cs",
               "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Services\\IMarkerService.cs",
               "RelativeDocumentMoniker": "Persistence\\Services\\IMarkerService.cs",
@@ -236,21 +297,7 @@
               "RelativeToolTip": "Persistence\\Services\\IMarkerService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:13:53.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DesignTimeFactory.cs",
-              "DocumentMoniker": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\DesignTimeFactory.cs",
-              "RelativeDocumentMoniker": "Persistence\\Data\\DesignTimeFactory.cs",
-              "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Data\\DesignTimeFactory.cs",
-              "RelativeToolTip": "Persistence\\Data\\DesignTimeFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:13:22.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:13:53.205Z"
             }
           ]
         }
