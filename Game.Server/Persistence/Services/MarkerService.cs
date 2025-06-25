@@ -78,29 +78,43 @@ namespace Persistence.Services
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="markers"></param>
+        /// <param name="inMarkers"></param>
         /// <returns></returns>
-        public async Task UpdateBulkAsync(List<Marker> markers)
+        public async Task UpdateBulkAsync(List<Marker> inMarkers)
         {
-            foreach (Marker m in markers)
+            List<Marker> existingList = await _context.Markers.AsNoTracking().ToListAsync();
+
+            var incomingIds = inMarkers.Select(m => m.ID).ToHashSet();
+            var toDeleteMarks = existingList.Where(db => !incomingIds.Contains(db.ID)).ToList();
+            if(toDeleteMarks.Any())
             {
-                Marker? existing = await _context.Markers.FindAsync(m.ID);
-                if (existing != null)
+                _context.Markers.RemoveRange(toDeleteMarks);
+            }
+
+            foreach (Marker m in inMarkers)
+            {
+                Marker? dbEntity = existingList.FirstOrDefault(db => db.ID == m.ID);
+
+                if (dbEntity != null) // 삭제 안되고 갱신 
                 {
-                    existing.PrefabID = m.PrefabID;
-                    existing.DropItemID = m.DropItemID;
-                    existing.AcquireStep = m.AcquireStep;
-                    existing.RemoveStep = m.RemoveStep;
-                    existing.Position = m.Position;
-                    existing.Rotation = m.Rotation;
-                    existing.Scale = m.Scale;
-                    existing.MarkerSpawnType = m.MarkerSpawnType;
-                    existing.MarkerType = m.MarkerType;
+                    dbEntity.PrefabID = m.PrefabID;
+                    dbEntity.NeedItemID = m.NeedItemID;
+                    dbEntity.DropItemID = m.DropItemID;
+                    dbEntity.AcquireStep = m.AcquireStep;
+                    dbEntity.RemoveStep = m.RemoveStep;
+                    dbEntity.Position = m.Position;
+                    dbEntity.Rotation = m.Rotation;
+                    dbEntity.Scale = m.Scale;
+                    dbEntity.MarkerSpawnType = m.MarkerSpawnType;
+                    dbEntity.MarkerType = m.MarkerType;
+
+                    _context.Markers.Update(dbEntity);
                 }
-                else
+                else if (dbEntity == null) //없던 거 
                 {
                     var created = await CreateAsync(m);
                 }
+                
             }
             await _context.SaveChangesAsync();
         }

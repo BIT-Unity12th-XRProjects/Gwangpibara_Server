@@ -37,6 +37,7 @@ namespace Persistence.Models
     {
         public int ID { get; set; }
         public int PrefabID { get; set; } 
+        public int NeedItemID { get; set; } 
         public int DropItemID { get; set; }
         public int AcquireStep { get; set; }
         public int RemoveStep { get; set; }
