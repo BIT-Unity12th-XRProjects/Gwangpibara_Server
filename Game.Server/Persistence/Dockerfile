@@ -12,7 +12,7 @@ WORKDIR "/src/Persistence"
 RUN dotnet publish -c Release -o /app/publish
 
 # --- Runtime stage ---
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-slim AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-bookworm-slim AS base
 
 # AWS CLI v2 설치 (최신 AWS API 호출용) :contentReference[oaicite:0]{index=0}
 RUN apt-get update && apt-get install -y --no-install-recommends \
