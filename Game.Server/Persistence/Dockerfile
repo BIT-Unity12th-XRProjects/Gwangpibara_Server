@@ -1,30 +1,39 @@
-# 디버그 컨테이너를 사용자 지정하는 방법과 Visual Studio 이 Dockerfile을 사용하여 더 빠른 디버깅을 위해 이미지를 빌드하는 방법을 알아보려면 https://aka.ms/customizecontainer를 참조하세요.
-
-# 이 스테이지는 VS에서 빠른 모드로 실행할 때 사용됩니다(디버그 구성의 기본값).
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER $APP_UID
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
-
-# 이 스테이지는 서비스 프로젝트를 빌드하는 데 사용됩니다.
+# --- Build stage ---
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
+
+# 프로젝트 파일 복사 및 복원
 COPY ["Persistence/Persistence.csproj", "Persistence/"]
-RUN dotnet restore "./Persistence/Persistence.csproj"
+RUN dotnet restore "Persistence/Persistence.csproj"
+
+# 나머지 소스 복사 및 퍼블리시
 COPY . .
 WORKDIR "/src/Persistence"
-RUN dotnet build "./Persistence.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet publish -c Release -o /app/publish
 
-# 이 스테이지는 최종 스테이지에 복사할 서비스 프로젝트를 게시하는 데 사용됩니다.
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Persistence.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+# --- Runtime stage ---
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-slim AS runtime
 
-# 이 스테이지는 프로덕션에서 사용되거나 VS에서 일반 모드로 실행할 때 사용됩니다(디버그 구성을 사용하지 않는 경우 기본값).
-FROM base AS final
+# AWS CLI v2 설치 (최신 AWS API 호출용) :contentReference[oaicite:0]{index=0}
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        curl unzip \
+    && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+    && unzip awscliv2.zip && ./aws/install \
+    && rm -rf awscliv2.zip aws \
+    && apt-get purge -y --auto-remove curl unzip \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
-COPY --from=publish /app/publish .
+# 빌드된 앱 복사
+COPY --from=build /app/publish .
+
+# ASP.NET Core 설정 & AWS 기본 리전 지정
+ENV ASPNETCORE_URLS=http://+:80 \
+    DOTNET_RUNNING_IN_CONTAINER=true \
+    AWS_DEFAULT_REGION=ap-northeast-2
+
+# 컨테이너 포트 노출
+EXPOSE 80
+
+# 애플리케이션 실행
 ENTRYPOINT ["dotnet", "Persistence.dll"]
