@@ -46,8 +46,7 @@
               "RelativeToolTip": "Persistence\\Services\\MarkerService.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAA5wEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:14:17.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:14:17.049Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Persistence\\Data\\GameDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T05:49:24.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:49:24.22Z"
             },
             {
               "$type": "Document",
@@ -70,7 +68,7 @@
               "RelativeDocumentMoniker": "Persistence\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Github\\Gwangpibara_Server\\Game.Server\\Persistence\\Properties\\launchSettings.json",
               "RelativeToolTip": "Persistence\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-25T06:23:04.549Z",
               "EditorCaption": ""
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Persistence\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:37:02.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:37:02.828Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Persistence\\Data\\DBInitializeTest.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwC8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:39:16.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:39:16.392Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Persistence\\Services\\IMarkerService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:13:53.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T10:13:53.205Z"
             }
           ]
         }

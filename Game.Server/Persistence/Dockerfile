@@ -28,12 +28,12 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # ASP.NET Core 설정 & AWS 기본 리전 지정
-ENV ASPNETCORE_URLS=http://+:80 \
+ENV ASPNETCORE_URLS=http://+:8080 \
     DOTNET_RUNNING_IN_CONTAINER=true \
     AWS_DEFAULT_REGION=ap-northeast-2
 
 # 컨테이너 포트 노출
-EXPOSE 80
+EXPOSE 8080
 
 # 애플리케이션 실행
 ENTRYPOINT ["dotnet", "Persistence.dll"]
