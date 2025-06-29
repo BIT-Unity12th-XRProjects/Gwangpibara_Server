@@ -1,40 +1,38 @@
 
-## 데이터베이스 서버 사용 방법
+AWS EC2 Instance 에 호스팅 되어 있어 별도의 실행 과정 없이 클라이언트에서 바로 사용 가능합니다
 
-### Docker 로 API 서버의 이미지와 컨테이너 생성 및 실행
+## ⚙️ 기술 스택
 
-[5000 : 8000] 으로 포트포워딩 하기
+- **C#**, **ASP.NET Core**
+- **Entity Framework Core (EF Core)**
+- **MySQL** + **AWS RDS**
+- **AWS EC2** (서버 호스팅)
+- **Docker** (서버 환경 구성)
 
-⚠️ 유니티에서 서버 접속하려면 컨테이너 실행 중이어야 함
+### 🔹API Server
 
-### API 서버 실행시키기
+- ASP.NET Core + EF Core로 
+CRUD API 서버 구현
+- API Server 에서 RDS MySQL 에 연결
 
-비쥬얼스튜디오에서 실행 시키기
+### 🔹Client (Unity)
 
-### 클라이언트에서 IP 주소 지정하기
+- UnityWebRequest 를 통한 RESTful API 통신
+- Newtonsoft 라이브러리를 활용하여 
+Json 파싱
 
-유니티 *MarkersApiClient.cs*의 _baseUrl 을 서버 실행시킨 컴퓨터의 ip주소 + 포트 번호(5000)로 변경
+### 🔹AWS EC2 & RDS 기반 인프라 구축
 
-Ex) `“http://192.168.0.28:5000”`
+**Instance**
 
-### MySQL Workbench 에서 AWS RDS의 데이터 베이스 확인하기
+OS : Ubuntu <br/>
+역할 : API 서버 호스팅 <br/>
+Docker 기반 컨테이너 배포 <br/>
 
-- 홈에서 AWS RDS 와 Connection 만들기
-    
-    > 아이디 : root <br/>
-    > 비번 : gwangpibara!!<br/>
-    > AWS RDS 의 EndPoint 입력
-    > 
+**RDS**
 
-## 주의 사항
-
-같은 LAN에서 사용 가능
-
-서버 실행 시켜야 AWS RDS 접근 가능
-
-AWS RDS 의 설정에 서버 실행시키는 컴퓨터의 IP 주소 등록되어 있어야 접근 가능
-
-서버의 방화벽 5000포트(http, https는 5001) 열어두기
+MySQL <br/>
+EC2 에서만 접근 가능하도록 보안 그룹 제어 <br/>
 
 ## 클라이언트에서 사용하기
 
