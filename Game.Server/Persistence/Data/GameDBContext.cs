@@ -8,6 +8,7 @@ namespace Persistence.Data
         public GameDBContext(DbContextOptions<GameDBContext> options) : base(options){}
 
         public DbSet<Marker> Markers => Set<Marker>();
+        public DbSet<Theme> Theme => Set<Theme>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,6 +35,11 @@ namespace Persistence.Data
                     nav.Property(p => p.Z).HasColumnName("ScaleZ");
                 });
             });
+            modelBuilder.Entity<Theme>()
+                .HasMany(e => e.Markers)
+                .WithOne(e => e.Theme)
+                .HasForeignKey(e => e.ThemeID)
+                .HasPrincipalKey(e => e.ID);
             //modelBuilder.ApplyConfigurationsFromAssembly(typeof(GameDBContext).Assembly);
         }
     }

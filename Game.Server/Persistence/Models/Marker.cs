@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Numerics;
-using System.Text.Json.Serialization;
 
 namespace Persistence.Models
 {
@@ -48,5 +46,8 @@ namespace Persistence.Models
 
         public MarkerSpawnType MarkerSpawnType { get; set; }
         public MarkerType MarkerType { get; set; } 
+
+        public int ThemeID { get; set; }
+        public Theme Theme { get; set; }
     }
 }
