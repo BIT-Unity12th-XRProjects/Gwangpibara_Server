@@ -5,6 +5,6 @@
         public int ID { get; set; }
         public string Title { get; set; }
 
-        public ICollection<Marker> Markers { get; }
+        public ICollection<Marker> Markers { get; set; } = new List<Marker>();
     }
 }

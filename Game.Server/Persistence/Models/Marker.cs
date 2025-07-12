@@ -47,7 +47,7 @@ namespace Persistence.Models
         public MarkerSpawnType MarkerSpawnType { get; set; }
         public MarkerType MarkerType { get; set; } 
 
-        public int ThemeID { get; set; }
-        public Theme Theme { get; set; }
+        public int ThemeID { get; set; } //FK
+        public Theme Theme { get; set; } //내비게이션 프로퍼티
     }
 }

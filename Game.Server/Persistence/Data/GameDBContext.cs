@@ -35,11 +35,13 @@ namespace Persistence.Data
                     nav.Property(p => p.Z).HasColumnName("ScaleZ");
                 });
             });
+
             modelBuilder.Entity<Theme>()
                 .HasMany(e => e.Markers)
                 .WithOne(e => e.Theme)
                 .HasForeignKey(e => e.ThemeID)
                 .HasPrincipalKey(e => e.ID);
+
             //modelBuilder.ApplyConfigurationsFromAssembly(typeof(GameDBContext).Assembly);
         }
     }
