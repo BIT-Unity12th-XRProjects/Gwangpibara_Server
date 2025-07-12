@@ -17,12 +17,23 @@ namespace Persistence.MyApi
 
         /// <summary>
         /// 모든 마커 조회
-        /// GET /api/markers
+        /// GET /api/markers/
         /// </summary>
         [HttpGet]
         public async Task<ActionResult<List<Marker>>> GetAllAsync()
         {
             var markers = await _markerService.GetAllAsync();
+            return Ok(markers);
+        }
+
+        /// <summary>
+        /// 모든 마커 조회
+        /// GET /api/markers/{themeId}/hambugi
+        /// </summary>
+        [HttpGet("{themeId}/hambugi")]
+        public async Task<ActionResult<List<Marker>>> GetAllThemeAsync(int id)
+        {
+            var markers = await _markerService.GetAllThemeAsync(id);
             return Ok(markers);
         }
 

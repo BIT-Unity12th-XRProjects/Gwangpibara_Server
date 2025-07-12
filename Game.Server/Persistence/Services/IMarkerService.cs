@@ -5,6 +5,7 @@ namespace Persistence.Services
     public interface IMarkerService
     {
         Task<List<Marker>> GetAllAsync();
+        Task<List<Marker>> GetAllThemeAsync(int id);
         Task<Marker?> GetByIdAsync(int id);
         Task<Marker> CreateAsync(Marker newMarker);
         Task DeleteByIdAsync(int id);

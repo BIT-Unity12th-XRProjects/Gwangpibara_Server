@@ -22,6 +22,21 @@ namespace Persistence.Services
                                  .AsNoTracking()
                                  .ToListAsync();
         }
+        /// <summary>
+        /// ThemeID로 Marker 배열 조회, 추적은 안 함
+        /// </summary>
+        public async Task<List<Marker>> GetAllThemeAsync(int id)
+        {
+            var theme = await _context.Theme.FirstOrDefaultAsync(t => t.ID == id);
+            if(theme != null)
+            {
+                await _context.Entry(theme)
+                    .Collection(t => t.Markers)
+                    .LoadAsync();
+                return theme.Markers.ToList();
+            }
+            return new List<Marker>();
+        }
 
         /// <summary>
         /// ID로 마커 단순 조회, 추적은 안 함
@@ -107,6 +122,8 @@ namespace Persistence.Services
                     dbEntity.Scale = m.Scale;
                     dbEntity.MarkerSpawnType = m.MarkerSpawnType;
                     dbEntity.MarkerType = m.MarkerType;
+                    dbEntity.Theme = m.Theme;
+                    dbEntity.ThemeID = m.ThemeID;
 
                     _context.Markers.Update(dbEntity);
                 }
