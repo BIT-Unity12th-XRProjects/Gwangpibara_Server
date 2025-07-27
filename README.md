@@ -14,7 +14,8 @@ AR 클라이언트 개발 팀을 위해 백엔드 데이터베이스 서버를 �
 
 이를 편리하게 호출할 수 있는 C# 함수 라이브러리와 사용 가이드를 제공
 
-![image (14)](https://github.com/user-attachments/assets/f6868dc3-56f0-46c7-8438-3513ebcffe7d)
+
+<img width="1536" height="1024" alt="GPServerImg" src="https://github.com/user-attachments/assets/8da8c0c9-390d-412f-ac96-fa705804c3fd" />
 
 | 분류 | 사용 기술 |
 | --- | --- |
